@@ -5,7 +5,7 @@
 
 [Задание 2](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab2/task2.hs)
 
-## Задачи на свёртку и развёртку списков
+## Двоичное дерево
 ![image](https://github.com/user-attachments/assets/7171ee30-f6aa-42d9-b396-cb929f5bad56)
 
 ### Пример работы
