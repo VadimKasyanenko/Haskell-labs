@@ -11,5 +11,16 @@
 ### Пример работы
 ![image](https://github.com/user-attachments/assets/dc7268a4-392d-44ee-9456-2bb05cd1bd53)
 
+[Алгебраическое дерево](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab2/Expr.hs)
+
+## Двоичное дерево
+![image](https://github.com/user-attachments/assets/6d422010-3543-43e8-97ec-cf6ce343cf87)
+
+
+[Задание 2](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab2/task2.hs)
+
+## Двоичное дерево
+![image](https://github.com/user-attachments/assets/7171ee30-f6aa-42d9-b396-cb929f5bad56)
+
 
 
