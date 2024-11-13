@@ -13,14 +13,14 @@
 
 [Алгебраическое дерево](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab2/Expr.hs)
 
-## Двоичное дерево
+## Алгебраическое дерево
 ![image](https://github.com/user-attachments/assets/6d422010-3543-43e8-97ec-cf6ce343cf87)
 
 
-[Задание 2](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab2/task2.hs)
+[Стековая машина](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab2/StackMachine.hs)
 
-## Двоичное дерево
-![image](https://github.com/user-attachments/assets/7171ee30-f6aa-42d9-b396-cb929f5bad56)
+## Стековая машина
+![image](https://github.com/user-attachments/assets/ae7b23ed-4360-4cbf-9595-ea344d9f4083)
 
 
 
