@@ -38,6 +38,21 @@ runProgram vars (cmd:cmds) stack =
     case runCommand vars stack cmd of
         Left err -> Left err
         Right newStack -> runProgram vars cmds newStack
+        
+parseCommand :: String -> Either String Command
+parseCommand str = case words str of
+    ["push", val] -> case reads val of
+        [(n, "")] -> Right (Push n)
+        _         -> Left $ "Invalid value: " ++ val
+    ["push", var] -> Right (PushVar var)
+    ["add"]       -> Right Add
+    ["sub"]       -> Right Sub
+    ["mul"]       -> Right Mul
+    ["div"]       -> Right Div
+    _             -> Left $ "Unknown command: " ++ str
+
+parseProgram :: String -> Either String [Command]
+parseProgram = mapM parseCommand . lines
 
 exprToCommands :: Expr -> [Command]
 exprToCommands (Const x) = [Push x]
