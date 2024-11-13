@@ -16,11 +16,16 @@
 ## Алгебраическое дерево
 ![image](https://github.com/user-attachments/assets/6d422010-3543-43e8-97ec-cf6ce343cf87)
 
+### Пример работы
+![image](https://github.com/user-attachments/assets/20c58dba-4b45-4033-aae7-cbe8885bc267)
 
 [Стековая машина](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab2/StackMachine.hs)
 
 ## Стековая машина
 ![image](https://github.com/user-attachments/assets/ae7b23ed-4360-4cbf-9595-ea344d9f4083)
+
+### Пример работы
+![image](https://github.com/user-attachments/assets/0be21b00-96c5-4756-bbdf-949d98d38c9a)
 
 
 
