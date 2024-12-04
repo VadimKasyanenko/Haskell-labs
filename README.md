@@ -1,11 +1,17 @@
-ДС Функциональное программирование
+## Тип даты и его классы
+![изображение](https://github.com/user-attachments/assets/b4527b4f-042c-4ede-ba44-63f312078a76)
 
-[Лабораторная 1](https://github.com/VadimKasyanenko/Haskell-labs/tree/Lab1)
+[Тип даты](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab4/Date.hs)
 
-[Лабораторная 2](https://github.com/VadimKasyanenko/Haskell-labs/tree/Lab2)
+## Класс типов: конечное множество натуральных чисел
+![изображение](https://github.com/user-attachments/assets/6280740b-778c-43b7-9931-d1d18229484d)
 
-[Лабораторная 3](https://github.com/VadimKasyanenko/Haskell-labs/tree/Lab3)
+[Класс типов](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab4/Type.hs)
 
-[Лабораторная 4](https://github.com/VadimKasyanenko/Haskell-labs/tree/Lab4)
+## Сделать заданные типы функторами
+![изображение](https://github.com/user-attachments/assets/6fe35a93-baa4-4f70-a90f-ea27e83ef9ce)
 
-Касьяненко Вадим
+[Функторы](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab2/Functor.hs)
+
+
+
