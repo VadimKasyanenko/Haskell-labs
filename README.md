@@ -48,10 +48,11 @@
 ## Список чисел Фибоначчи
 ![image](https://github.com/user-attachments/assets/70b90185-4be1-4f72-9729-83ce4da11afa)
 
-[Задание 12](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab1/task12.hs)
+[Задание 11](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab1/task11.hs)
 
 ## Перечисление путей в решётке
 ![image](https://github.com/user-attachments/assets/c5900cdc-d914-43ff-804e-fd14efbe4732)
 
+[Задание 12](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab1/task12.hs)
 
 
