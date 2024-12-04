@@ -47,3 +47,29 @@ subtractDates date1 date2 = go date1 date2 0
       | d1 == d2  = acc
       | d1 < d2   = go (nextDay d1) d2 (acc - 1)
       | otherwise = go (prevDay d1) d2 (acc + 1)
+      
+nextDay :: Date -> Date
+nextDay (Date y m d)
+  | d < daysInMonth y m = Date y m (d + 1)
+  | m < 12              = Date y (m + 1) 1
+  | otherwise           = Date (y + 1) 1 1
+  where
+    daysInMonth y m
+      | m `elem` [1, 3, 5, 7, 8, 10, 12] = 31
+      | m `elem` [4, 6, 9, 11]           = 30
+      | m == 2                           = if isLeapYear y then 29 else 28
+      | otherwise                        = 0
+    isLeapYear y = (y `mod` 4 == 0 && y `mod` 100 /= 0) || (y `mod` 400 == 0)
+
+prevDay :: Date -> Date
+prevDay (Date y m d)
+  | d > 1     = Date y m (d - 1)
+  | m > 1     = Date y (m - 1) (daysInMonth y (m - 1))
+  | otherwise = Date (y - 1) 12 31
+  where
+    daysInMonth y m
+      | m `elem` [1, 3, 5, 7, 8, 10, 12] = 31
+      | m `elem` [4, 6, 9, 11]           = 30
+      | m == 2                           = if isLeapYear y then 29 else 28
+      | otherwise                        = 0
+    isLeapYear y = (y `mod` 4 == 0 && y `mod` 100 /= 0) || (y `mod` 400 == 0)
