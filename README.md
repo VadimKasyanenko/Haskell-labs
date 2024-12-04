@@ -6,4 +6,6 @@
 
 [Лабораторная 3](https://github.com/VadimKasyanenko/Haskell-labs/tree/Lab3)
 
+[Лабораторная 4](https://github.com/VadimKasyanenko/Haskell-labs/tree/Lab4)
+
 Касьяненко Вадим
