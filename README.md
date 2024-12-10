@@ -13,5 +13,9 @@
 
 [Функторы](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab4/Functor.hs)
 
+### Пример работы
+![изображение](https://github.com/user-attachments/assets/c5b166db-0601-41fd-9a62-b35c058a5859)
+
+
 
 
