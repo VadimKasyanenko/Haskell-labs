@@ -11,7 +11,7 @@
 ## Сделать заданные типы функторами
 ![изображение](https://github.com/user-attachments/assets/6fe35a93-baa4-4f70-a90f-ea27e83ef9ce)
 
-[~~Функторы~~](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab2/Functor.hs)
+[Функторы](https://github.com/VadimKasyanenko/Haskell-labs/blob/Lab4/Functor.hs)
 
 
 
